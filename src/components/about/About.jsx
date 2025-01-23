@@ -23,27 +23,26 @@ const About = () => {
             <article className="about__card">
               <FaAward className="about__icon" />
               <h5>Eperience</h5>
-              <small>3+</small>
+              <small>1 Year</small>
             </article>
 
             <article className="about__card">
               <FiUsers className="about__icon" />
               <h5>Clients</h5>
-              <small>200+ Worldwide</small>
+              <small>No client experience yet</small>
             </article>
 
             <article className="about__card">
               <VscFolderLibrary className="about__icon" />
               <h5>Projects</h5>
-              <small>80+ Completed</small>
+              <small>3 Completed</small>
             </article>
           </div>
 
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos
-            qui minus, optio adipisci ad facilis aut excepturi architecto
-            aperiam doloremque asperiores pariatur accusamus nisi rerum officia
-            sequi consectetur facere praesentium.
+            I'm a passionate Software Engineer passionate about building
+            efficient solutions. I focus on creating impactful applications and
+            am always excited to learn and collaborate.
           </p>
 
           <a href="#contact" className="btn btn-primary">

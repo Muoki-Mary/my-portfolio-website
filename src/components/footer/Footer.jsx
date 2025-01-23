@@ -55,7 +55,7 @@ const Footer = () => {
       </div>
 
       <div className="footer__copyright">
-        <small>&copy; EGATOR Tutorials. All rights reserved.</small>
+        <small>&copy; 2025 Mary Muoki. All rights reserved.</small>
       </div>
     </footer>
   );

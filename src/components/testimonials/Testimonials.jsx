@@ -17,27 +17,27 @@ import "swiper/css/pagination";
 const data = [
   {
     avatar: AVTR1,
-    name: "Tina Snow",
+    name: "Prince Jay",
     review:
-      "Modi alias anaimi dolorem aliquam ea eum beatae maiores, consectetur praesentium quibusdam, commodi velit porro blanditiis consequatur qui Molestiae. Dolorem, perspiciatis aspernatur labore distinctio ratione delectus  voluptatem dolore deserunt explicabo nostrum ducimus quasi?",
+      "Delivered excellent results on time with great attention to detail. Highly recommend!",
   },
   {
     avatar: AVTR2,
-    name: "Shatta Wale",
+    name: "Alex Kim",
     review:
-      "Modi alias animi dolorem aliquam ea eum beatae maiores, consectetur praesentium quibusdam, commodi velit porro blanditiis consequatur qui Molestiae. Dolorem, perspiciatis aspernatur labore distinctio ratione delectus  voluptatem dolore deserunt explicabo nostrum ducimus quasi?",
+      "Exceptional work on our website design—efficient, professional, and exceeded expectations!",
   },
   {
     avatar: AVTR3,
-    name: "Kwame Despite",
+    name: "Lee Tyldesley",
     review:
-      "Modi alias animi dolorem aliquam ea eum beatae maiores, consectetur praesentium quibusdam, commodi velit porro blanditiis consequatur qui Molestiae. Dolorem, perspiciatis aspernatur labore distinctio ratione delectus  voluptatem dolore deserunt explicabo nostrum ducimus quasi?",
+      "A pleasure to collaborate with—great problem-solving skills and clean, effective code!",
   },
   {
     avatar: AVTR4,
-    name: "Nana Ama McBrown",
+    name: "Marie Slinchez",
     review:
-      "Modi alias animi dolorem aliquam ea eum beatae maiores, consectetur praesentium quibusdam, commodi velit porro blanditiis consequatur qui Molestiae. Dolorem, perspiciatis aspernatur labore distinctio ratione delectus  voluptatem dolore deserunt explicabo nostrum ducimus quasi?",
+      "Amazing creativity and strong technical skills. The project was completed seamlessly and with great quality!",
   },
 ];
 
@@ -61,7 +61,7 @@ const Testimonials = () => {
               <div className="client__avatar">
                 <img src={avatar} />
               </div>
-              <h5 className="client_name">Ernest Achiever</h5>
+              <h5 className="client_name">{name}</h5>
               <small className="client__review">{review} </small>
             </SwiperSlide>
           );

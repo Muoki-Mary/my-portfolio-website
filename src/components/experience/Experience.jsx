@@ -34,23 +34,7 @@ const Experience = () => {
               <div>
                 <h4>JavaScript</h4>
               </div>
-              <small className="text-light">Experienced</small>
-            </article>
-
-            <article className="experience__details">
-              <BsPatchCheckFill className="experience__details-icon" />
-              <div>
-                <h4>JavaScript</h4>
-              </div>
-              <small className="text-light">Experienced</small>
-            </article>
-
-            <article className="experience__details">
-              <BsPatchCheckFill className="experience__details-icon" />
-              <div>
-                <h4>Tailwind</h4>
-              </div>
-              <small className="text-light">Experienced</small>
+              <small className="text-light">Intermediate</small>
             </article>
 
             <article className="experience__details">
@@ -58,7 +42,7 @@ const Experience = () => {
               <div>
                 <h4>React</h4>
               </div>
-              <small className="text-light">Experienced</small>
+              <small className="text-light">Basic</small>
             </article>
           </div>
         </div>
@@ -70,23 +54,7 @@ const Experience = () => {
             <article className="experience__details">
               <BsPatchCheckFill className="experience__details-icon" />
               <div>
-                <h4>Node JS</h4>
-              </div>
-              <small className="text-light">Experienced</small>
-            </article>
-
-            <article className="experience__details">
-              <BsPatchCheckFill className="experience__details-icon" />
-              <div>
-                <h4>MongoDB</h4>
-              </div>
-              <small className="text-light">Intermediate</small>
-            </article>
-
-            <article className="experience__details">
-              <BsPatchCheckFill className="experience__details-icon" />
-              <div>
-                <h4>PHP</h4>
+                <h4>Java</h4>
               </div>
               <small className="text-light">Intermediate</small>
             </article>
@@ -104,7 +72,7 @@ const Experience = () => {
               <div>
                 <h4>Python</h4>
               </div>
-              <small className="text-light">Experienced</small>
+              <small className="text-light">Intermediate</small>
             </article>
           </div>
         </div>
